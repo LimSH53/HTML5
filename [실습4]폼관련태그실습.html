@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>[실습4]폼관련태그실습</title>
+</head>
+<body>
+    <form action="" method="">
+        <fieldset>
+            <legend>납품자 정보</legend>
+            <ol>
+                <li>
+                    <p>
+                    <label>납품자명 : </label>
+                    <input type="text">
+                    </p>
+                </li>
+                <li>
+                    <p>
+                    <label>email : </label>
+                    <input type="text" placeholder="answer@naver.com">
+                    </p>
+                </li>
+                <li>
+                    <p>
+                    <label>홈페이지 : </label>
+                    <input type="text" placeholder="http://">
+                    </p>
+                </li>
+                <li>
+                    <p>
+                    <label>지역 : </label>
+                    <select>
+                        <option>인천</option>
+                    </select>
+                    </p>
+                </li>
+            </ol>
+        </fieldset>
+
+        <fieldset>
+            <legend>납품 정보</legend>
+            <ul>
+                <li>
+                    <p>
+                        <label>상품명 : </label>
+                        <input type="text">
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <label>납품수량 : </label>
+                        <input type="text" min="100" placeholder="최소 100">
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <label>납품등급 : </label>
+                        <input type="range" min="100" max="1000" value="550">
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <label>기타사항 : </label>
+                        <textarea></textarea>
+                    </p>
+                </li>
+            </ul>
+        </fieldset>
+        <p>
+            <input type="submit" value="send massage">
+        </p>
+
+
+    </form>
+</body>
+</html>

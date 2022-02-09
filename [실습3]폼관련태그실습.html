@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>[실습3]폼관련태그실습</title>
+</head>
+<body>
+    <form action="" method="">
+        <p>
+            <label>고객명 : </label>
+            <input type="text">
+        </p>
+        <p>
+            <label>전화번호 : </label>
+            <input type="text">
+        </p>
+        <p>
+            <label>E-mail : </label>
+            <input type="text">
+        </p>
+            <label>피자 선택 : </label>
+            <select name="pizza">
+                <option value="bul">불고기</option>
+                <option value="hwa">하와이안</option>
+                <option selected>피자를 선택하세요</option>
+            </select>
+        <fieldset>
+            <legend>피자 사이즈</legend>
+            <input type="radio" id="small" name="size" value="S" checked>
+            <label for="small">Small</label><br>
+            <input type="radio" id="medium" name="size" value="M" >
+            <label for="medium">Medium</label><br>
+            <input type="radio" id="large" name="size" value="L" >
+            <label for="large">Large</label><br>
+        </fieldset>
+        <p>
+        <fieldset>
+            <legend>토핑 선택</legend>
+            <input type="checkbox" id="bacon" name="topping" value="bacon">
+            <label for="bacon">베이컨</label><br>
+            <input type="checkbox" id="cheese" name="topping" value="cheese">
+            <label for="cheese">치즈</label><br>
+            <input type="checkbox" id="onion" name="topping" value="onion">
+            <label for="onion">양파</label><br>
+            <input type="checkbox" id="mushroom" name="topping" value="mushroom">
+            <label for="mushroom">버섯</label><br>
+        </fieldset>
+        </p>
+        <p>
+            <label>희망 배송 시간 : </label>
+            <input type="time">
+        </p>
+        <p>
+            <label>배송 시 요청사항 : </label>
+            <textarea cols="20" rows="3"></textarea>
+        </p>
+        <input type="submit" value="주문하기">
+    </form>
+
+    
+</body>
+</html>
